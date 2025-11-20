@@ -597,51 +597,6 @@ const translations = {
     zh: '环境安全',
     de: 'Umweltsicherheit'
   },
-  'projects.germany.title': {
-    en: 'Germany',
-    hu: 'Németország',
-    sv: 'Tyskland',
-    it: 'Germania',
-    ko: '독일',
-    zh: '德国',
-    de: 'Deutschland'
-  },
-  'projects.germany.description': {
-    en: 'Coming Soon',
-    hu: 'Hamarosan',
-    sv: 'Kommer Snart',
-    it: 'Prossimamente',
-    ko: '곧 출시',
-    zh: '即将推出',
-    de: 'Demnächst'
-  },
-  'projects.germany.client': {
-    en: 'Germany',
-    hu: 'Németország',
-    sv: 'Tyskland',
-    it: 'Germania',
-    ko: '독일',
-    zh: '德国',
-    de: 'Deutschland'
-  },
-  'projects.germany.completed': {
-    en: 'Coming Soon',
-    hu: 'Hamarosan',
-    sv: 'Kommer Snart',
-    it: 'Prossimamente',
-    ko: '곧 출시',
-    zh: '即将推出',
-    de: 'Demnächst'
-  },
-  'projects.germany.category': {
-    en: 'Industrial Safety',
-    hu: 'Ipari biztonság',
-    sv: 'Industriell säkerhet',
-    it: 'Sicurezza industriale',
-    ko: '산업 안전',
-    zh: '工业安全',
-    de: 'Industrielle Sicherheit'
-  },
   'projects.bulgaria.title': {
     en: 'Bulgaria',
     hu: 'Bulgária',

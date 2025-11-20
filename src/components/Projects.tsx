@@ -53,17 +53,6 @@ export function Projects() {
       category: t('projects.italy.category'),
       client: t('projects.italy.client'),
       completed: t('projects.italy.completed')
-    },
-    {
-      id: '3',
-      title: t('projects.germany.title'),
-      description: t('projects.germany.description'),
-      image: '',
-      gallery: [],
-      technologies: [],
-      category: t('projects.germany.category'),
-      client: t('projects.germany.client'),
-      completed: t('projects.germany.completed')
     }
   ];
 
