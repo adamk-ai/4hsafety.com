@@ -11,7 +11,7 @@ export function Team() {
     position: t('team.ceo.position'),
     specialization: t('team.ceo.specialization'),
     description: t('team.ceo.description'),
-    image: '/Akos.feherhatter copy copy.png',
+    image: '/akos-new.jpg',
     email: 'akos.horvath@office.4hsafety.com',
     linkedin: 'https://linkedin.com/in/akos-horvath'
   };
@@ -23,7 +23,7 @@ export function Team() {
       position: t('team.projectManager.position'),
       specialization: t('team.projectManager.specialization'),
       description: t('team.projectManager.description'),
-      image: '/Matyi fehér háttér.png',
+      image: '/matyas-new.jpg',
       imagePosition: 'center 30%',
       email: 'matyas.egyed@office.4hsafety.com',
       linkedin: 'https://linkedin.com/in/matyas-egyed'
@@ -34,7 +34,7 @@ export function Team() {
       position: t('team.environmentalEngineer.position'),
       specialization: t('team.environmentalEngineer.specialization'),
       description: t('team.environmentalEngineer.description'),
-      image: '/Mate_photo copy copy.png',
+      image: '/mate-new.jpg',
       imagePosition: 'center center',
       email: 'mate.horvath@office.4hsafety.com',
       linkedin: 'https://linkedin.com/in/mate-horvath'
@@ -59,7 +59,7 @@ export function Team() {
       position: t('team.officeAdmin.position'),
       specialization: t('team.officeAdmin.specialization'),
       description: t('team.officeAdmin.description'),
-      image: '/Adi_photo copy copy copy copy copy.png',
+      image: '/adam-new.jpg',
       imagePosition: 'center 30%',
       email: 'adam.kiss@office.4hsafety.com',
       linkedin: 'https://linkedin.com/in/adam-kiss'
