@@ -13,9 +13,9 @@ export function Projects() {
       id: '1',
       title: t('projects.sweden.title'),
       description: t('projects.sweden.description'),
-      image: '/sweden/4b4beec3-4da8-4426-bf7d-1b95e5d8ee.jpg',
+      image: '/sweden/PHOTO-2025-09-29-09-52-29 copy.jpg',
       gallery: [
-        '/sweden/4b4beec3-4da8-4426-bf7d-1b95e5d8ee.jpg',
+        '/sweden/PHOTO-2025-09-29-09-52-29 copy.jpg',
         '/sweden/4b4beec3-4da8-4426-bf7d-1b95e5d8ee44.jpg',
         '/sweden/39866fad-1346-4ceb-a28c-15749726a9dc.jpg',
         '/sweden/4304967c-9fc6-4e6e-b3b6-3d35a02af321.jpg',
