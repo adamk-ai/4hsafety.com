@@ -34,8 +34,8 @@ export function Team() {
       position: t('team.environmentalEngineer.position'),
       specialization: t('team.environmentalEngineer.specialization'),
       description: t('team.environmentalEngineer.description'),
-      image: '/Mate_photo (2).png',
-      imagePosition: 'center 40%',
+      image: '/Mate_photo copy copy.png',
+      imagePosition: 'center center',
       email: 'mate.horvath@office.4hsafety.com',
       linkedin: 'https://linkedin.com/in/mate-horvath'
     }
