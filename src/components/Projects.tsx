@@ -13,8 +13,13 @@ export function Projects() {
       id: '1',
       title: t('projects.sweden.title'),
       description: t('projects.sweden.description'),
+      image: '/sweden/4b4beec3-4da8-4426-bf7d-1b95e5d8ee copy.jpg',
       gallery: [
-        
+        '/sweden/4b4beec3-4da8-4426-bf7d-1b95e5d8ee copy.jpg',
+        '/sweden/4b4beec3-4da8-4426-bf7d-1b95e5d8ee44 copy.jpg',
+        '/sweden/39866fad-1346-4ceb-a28c-15749726a9dc copy.jpg',
+        '/sweden/4304967c-9fc6-4e6e-b3b6-3d35a02af321 copy.jpg',
+        '/sweden/71014859-4955-4f54-a6cf-15189ba3bfac copy.jpg'
       ],
       technologies: [],
       category: t('projects.sweden.category'),
