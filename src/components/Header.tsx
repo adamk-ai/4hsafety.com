@@ -42,7 +42,7 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
             <div className="h-10 w-10 rounded-full overflow-hidden bg-white">
-              <img src="/logo uj.2 copy.png" alt="4H Safety Logo" className="h-full w-full object-cover" />
+              <img src="/4H logo uj copy.jpg" alt="4H Safety Logo" className="h-full w-full object-cover" />
             </div>
             <div>
               <h1 className="text-lg font-bold text-gray-900">4H Safety</h1>
