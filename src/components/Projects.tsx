@@ -13,18 +13,8 @@ export function Projects() {
       id: '1',
       title: t('projects.sweden.title'),
       description: t('projects.sweden.description'),
-      image: '/sweden/4b4beec3-4da8-4426-bf7d-1b95e5d8ee copy copy.jpg',
       gallery: [
-        '/sweden/4b4beec3-4da8-4426-bf7d-1b95e5d8ee copy copy.jpg',
-        '/sweden/4b4beec3-4da8-4426-bf7d-1b95e5d8ee44 copy copy.jpg',
-        '/sweden/07e2f6ac-d98c-4285-ad81-b22647db3e2c copy copy.jpg',
-        '/sweden/8c3706c7-0b9a-4715-8a88-806bf49c68d9 copy copy.jpg',
-        '/sweden/39866fad-1346-4ceb-a28c-15749726a9dc copy copy.jpg',
-        '/sweden/4304967c-9fc6-4e6e-b3b6-3d35a02af321 copy copy.jpg',
-        '/sweden/71014859-4955-4f54-a6cf-15189ba3bfac copy copy.jpg',
-        '/sweden/a1743477-eb86-4630-b861-c4416ed74cf2 (1) copy copy.jpg',
-        '/sweden/c1e3a9d9-f318-4930-932f-e0db296f4951 copy copy.jpg',
-        '/sweden/ddbb3ce1-8473-482e-9beb-ad5fde0ef174 copy copy.jpg'
+        
       ],
       technologies: [],
       category: t('projects.sweden.category'),
