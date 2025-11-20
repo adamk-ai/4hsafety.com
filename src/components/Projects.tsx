@@ -13,7 +13,7 @@ export function Projects() {
       id: '1',
       title: t('projects.sweden.title'),
       description: t('projects.sweden.description'),
-      image: '/sweden/PHOTO-2025-09-29-09-52-29 copy.jpg',
+      image: '/sweden/4b4beec3-4da8-4426-bf7d-1b95e5d8ee copy copy.jpg',
       gallery: [
         '/sweden/PHOTO-2025-09-29-09-52-29 copy.jpg',
         '/sweden/4b4beec3-4da8-4426-bf7d-1b95e5d8ee44.jpg',
