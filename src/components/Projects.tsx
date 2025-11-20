@@ -19,7 +19,8 @@ export function Projects() {
         '/sweden/4b4beec3-4da8-4426-bf7d-1b95e5d8ee44 copy.jpg',
         '/sweden/39866fad-1346-4ceb-a28c-15749726a9dc copy.jpg',
         '/sweden/4304967c-9fc6-4e6e-b3b6-3d35a02af321 copy.jpg',
-        '/sweden/71014859-4955-4f54-a6cf-15189ba3bfac copy.jpg'
+        '/sweden/71014859-4955-4f54-a6cf-15189ba3bfac copy.jpg',
+        '/sweden/d8a2e4e3a2c3f1b69ed72db1ab57af33 copy.JPEG'
       ],
       technologies: [],
       category: t('projects.sweden.category'),
