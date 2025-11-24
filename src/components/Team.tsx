@@ -48,7 +48,7 @@ export function Team() {
       position: t('team.safetyCoordinator.position'),
       specialization: t('team.safetyCoordinator.specialization'),
       description: t('team.safetyCoordinator.description'),
-      image: '/VáRHEGYI VIKTOR.pdf más copy.jpg',
+      image: '/viktor-varhegyi.jpg',
       imagePosition: 'center 25%',
       email: 'viktor.varhegyi@office.4hsafety.com',
       linkedin: 'https://linkedin.com/in/viktor-varhegyi'
