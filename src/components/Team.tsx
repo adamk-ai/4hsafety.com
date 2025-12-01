@@ -11,7 +11,7 @@ export function Team() {
     position: t('team.ceo.position'),
     specialization: t('team.ceo.specialization'),
     description: t('team.ceo.description'),
-    image: '/Aki-website-photo.jpg',
+    image: '/aki-website-photo.png',
     email: 'akos.horvath@office.4hsafety.com',
     linkedin: 'https://linkedin.com/in/akos-horvath'
   };
