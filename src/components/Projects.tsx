@@ -207,9 +207,10 @@ export function Projects() {
                 >
                   <ChevronLeft size={32} />
                 </button>
+                {/* az ez alatti button elotte ez volt: "absolute right-[20rem] top-1/2 transform -translate-y-1/2 z-10 bg-white/20 hover:bg-white/30 text-white p-4 rounded-full transition-colors" */}
                 <button
                   onClick={nextImage}
-                  className="absolute right-[20rem] top-1/2 transform -translate-y-1/2 z-10 bg-white/20 hover:bg-white/30 text-white p-4 rounded-full transition-colors"
+                  className="absolute right-2 md:right-[20rem] top-1/2 -translate-y-1/2 z-10 bg-white/20 hover:bg-white/30 text-white p-4 rounded-full transition-colors"
                 >
                   <ChevronRight size={32} />
                 </button>
@@ -217,7 +218,8 @@ export function Projects() {
             )}
 
             {/* Gallery Content */}
-            <div className="w-full h-full flex">
+            {/* "w-full h-full flex" volt előtte ami jó volt*/}
+            <div className="w-full h-full flex flex-col md:flex-row">
               {/* Main Image Area */}
               <div className="flex-1 flex items-center justify-center p-8">
                 <div className="relative max-w-4xl w-full">
@@ -235,7 +237,8 @@ export function Projects() {
               </div>
 
               {/* Project Info Sidebar */}
-              <div className="w-80 bg-white/95 backdrop-blur-sm p-6 overflow-y-auto">
+              {/* "w-80 bg-white/95 backdrop-blur-sm p-6 overflow-y-auto" volt előtte ami műkodtt */}
+              <div className="w-full md:w-80 bg-white/95 backdrop-blur-sm p-6 overflow-y-auto">
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">{selectedProject.title}</h3>
