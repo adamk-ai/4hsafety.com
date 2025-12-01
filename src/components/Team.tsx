@@ -88,7 +88,7 @@ export function Team() {
                   src={ceo.image}
                   alt={ceo.name}
                   className="w-full h-full object-cover object-center filter transition-all duration-500 grayscale contrast-110 brightness-105 group-hover:grayscale-0 group-hover:brightness-110"
-                  style={{ objectPosition: 'center 20%' }}
+                  style={{ objectPosition: 'center center' }}
                 />
               </div>
             </div>
