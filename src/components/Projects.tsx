@@ -193,7 +193,7 @@ export function Projects() {
             {/* Close Button */}
             <button
               onClick={closeGallery}
-              className="absolute top-6 right-6 z-10 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full transition-colors"
+              className="absolute top-6 right-6 z-10 bg-white/20 hover:bg-white/30 text-black p-3 rounded-full transition-colors"
             >
               <X size={24} />
             </button>
@@ -203,14 +203,13 @@ export function Projects() {
               <>
                 <button
                   onClick={prevImage}
-                  className="absolute left-2 top-1/2 transform -translate-y-1/2 z-10 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full transition-colors"
+                  className="absolute left-2 top-1/2 transform -translate-y-1/2 z-10 bg-white/20 hover:bg-white/30 text-black p-3 rounded-full transition-colors"
                 >
                   <ChevronLeft size={32} />
                 </button>
-                {/* az ez alatti button elotte ez volt: "absolute right-[20rem] top-1/2 transform -translate-y-1/2 z-10 bg-white/20 hover:bg-white/30 text-white p-4 rounded-full transition-colors" */}
                 <button
                   onClick={nextImage}
-                  className="absolute right-2 md:right-[20rem] top-1/2 -translate-y-1/2 z-10 bg-white/20 hover:bg-white/30 text-white p-4 rounded-full transition-colors"
+                  className="absolute right-2 md:right-[20rem] top-1/2 -translate-y-1/2 z-10 bg-white/20 hover:bg-white/30 text-black p-4 rounded-full transition-colors"
                 >
                   <ChevronRight size={32} />
                 </button>
