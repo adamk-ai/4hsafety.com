@@ -12,6 +12,7 @@ export function Team() {
     specialization: t('team.ceo.specialization'),
     description: t('team.ceo.description'),
     image: '/aki-website-photo.png',
+    imagePosition: 'center 20%',
     email: 'akos.horvath@office.4hsafety.com',
     linkedin: 'https://linkedin.com/in/akos-horvath'
   };
@@ -88,7 +89,7 @@ export function Team() {
                   src={ceo.image}
                   alt={ceo.name}
                   className="w-full h-full object-cover object-center filter transition-all duration-500 grayscale contrast-110 brightness-105 group-hover:grayscale-0 group-hover:brightness-110"
-                  style={{ objectPosition: 'center center' }}
+                  style={{ objectPosition: ceo.imagePosition || 'center 20%' }}
                 />
               </div>
             </div>
