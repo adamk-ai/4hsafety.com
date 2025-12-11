@@ -135,17 +135,11 @@ export function Header() {
               >
                 {t('nav.team')}
               </button>
-              <button 
-                onClick={() => scrollToSection('projects')} 
+              <button
+                onClick={() => scrollToSection('projects')}
                 className="block px-3 py-2 text-gray-700 hover:text-red-600 transition-colors w-full text-left font-medium"
               >
                 {t('nav.projects')}
-              </button>
-              <button
-                onClick={() => scrollToSection('gallery')}
-                className="block px-3 py-2 text-gray-700 hover:text-red-600 transition-colors w-full text-left font-medium"
-              >
-                {t('nav.gallery')}
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
