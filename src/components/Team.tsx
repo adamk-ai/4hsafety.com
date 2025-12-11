@@ -17,6 +17,18 @@ export function Team() {
     linkedin: 'https://linkedin.com/in/akos-horvath'
   };
 
+  const engineeringManager: TeamMember = {
+    id: '6',
+    name: 'Ferenc Horvath',
+    position: t('team.engineeringManager.position'),
+    specialization: t('team.engineeringManager.specialization'),
+    description: t('team.engineeringManager.description'),
+    image: '/horvathferenc-photo.png',
+    imagePosition: 'center 20%',
+    email: 'ferenc.horvath@office.4hsafety.com',
+    linkedin: 'https://linkedin.com/in/ferenc-horvath'
+  };
+
   const management: TeamMember[] = [
     {
       id: '2',
@@ -39,17 +51,6 @@ export function Team() {
       imagePosition: 'center center',
       email: 'mate.horvath@office.4hsafety.com',
       linkedin: 'https://linkedin.com/in/mate-horvath'
-    },
-    {
-      id: '6',
-      name: 'Ferenc Horvath',
-      position: t('team.engineeringManager.position'),
-      specialization: t('team.engineeringManager.specialization'),
-      description: t('team.engineeringManager.description'),
-      image: '/horvathferenc-photo.png',
-      imagePosition: 'center 20%',
-      email: 'ferenc.horvath@office.4hsafety.com',
-      linkedin: 'https://linkedin.com/in/ferenc-horvath'
     }
   ];
 
@@ -118,9 +119,36 @@ export function Team() {
           </div>
         </div>
 
-        {/* Management - Second Level */}
+        {/* Engineering Manager - Second Level */}
         <div className="flex justify-center mb-12">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-5xl">
+          <div className="group text-center">
+            <div className="relative mb-6">
+              <div className="w-52 h-52 mx-auto rounded-full overflow-hidden bg-white shadow-xl group-hover:shadow-2xl transition-all duration-500 ring-4 ring-green-600">
+                <img
+                  src={engineeringManager.image}
+                  alt={engineeringManager.name}
+                  className="w-full h-full object-cover object-center filter transition-all duration-500 grayscale contrast-110 brightness-105 group-hover:grayscale-0 group-hover:brightness-110"
+                  style={{ objectPosition: engineeringManager.imagePosition || 'center 20%' }}
+                />
+              </div>
+            </div>
+
+            <div className="space-y-3 px-2 max-w-xs mx-auto">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-1 group-hover:text-green-600 transition-colors duration-300">
+                  {engineeringManager.name}
+                </h3>
+                <p className="text-green-600 font-semibold text-base mb-3 group-hover:text-gray-900 transition-colors duration-300">
+                  {engineeringManager.position}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Management - Third Level */}
+        <div className="flex justify-center mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-3xl">
             {management.map((member, index) => (
               <div key={member.id} className="group text-center">
                 <div className="relative mb-6">
@@ -149,7 +177,7 @@ export function Team() {
           </div>
         </div>
 
-        {/* Team - Third Level */}
+        {/* Team - Fourth Level */}
         <div className="flex justify-center">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl">
             {team.map((member, index) => (
