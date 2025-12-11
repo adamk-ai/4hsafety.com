@@ -74,8 +74,8 @@ export function Team() {
       position: t('team.safetyCoordinator.position'),
       specialization: t('team.safetyCoordinator.specialization'),
       description: t('team.safetyCoordinator.description'),
-      image: '/csenger-phote.png',
-      imagePosition: 'center 20%',
+      image: '/csenger-phote copy.png',
+      imagePosition: 'center 15%',
       email: 'csenger@office.4hsafety.com',
       linkedin: 'https://linkedin.com/in/csenger'
     },
