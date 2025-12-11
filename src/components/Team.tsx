@@ -39,6 +39,17 @@ export function Team() {
       imagePosition: 'center center',
       email: 'mate.horvath@office.4hsafety.com',
       linkedin: 'https://linkedin.com/in/mate-horvath'
+    },
+    {
+      id: '6',
+      name: 'Ferenc Horvath',
+      position: t('team.engineeringManager.position'),
+      specialization: t('team.engineeringManager.specialization'),
+      description: t('team.engineeringManager.description'),
+      image: '/horvathferenc-photo.png',
+      imagePosition: 'center 20%',
+      email: 'ferenc.horvath@office.4hsafety.com',
+      linkedin: 'https://linkedin.com/in/ferenc-horvath'
     }
   ];
 
@@ -109,7 +120,7 @@ export function Team() {
 
         {/* Management - Second Level */}
         <div className="flex justify-center mb-12">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-3xl">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-5xl">
             {management.map((member, index) => (
               <div key={member.id} className="group text-center">
                 <div className="relative mb-6">

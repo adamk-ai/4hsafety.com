@@ -1302,6 +1302,33 @@ const translations = {
     ko: '일일 운영 조정, 문서 관리 및 포괄적인 행정 지원 제공을 담당하는 경험 많은 사무실 관리자.',
     zh: '经验丰富的办公室管理员，负责协调日常运营、管理文档并提供全面的行政支持。',
     de: 'Erfahrener Büroadministrator, verantwortlich für die Koordinierung des täglichen Betriebs, die Verwaltung der Dokumentation und die Bereitstellung umfassender Verwaltungsunterstützung.'
+  },
+  'team.engineeringManager.position': {
+    en: 'Engineering Manager - HSE Projects',
+    hu: 'Mérnöki Vezető - HSE Projektek',
+    sv: 'Ingenjörschef - HSE-projekt',
+    it: 'Responsabile Ingegneria - Progetti HSE',
+    ko: '엔지니어링 관리자 - HSE 프로젝트',
+    zh: '工程经理 - HSE项目',
+    de: 'Ingenieurmanager - HSE-Projekte'
+  },
+  'team.engineeringManager.specialization': {
+    en: 'HSE Engineering & Project Development',
+    hu: 'HSE Mérnöki Tevékenység és Projektfejlesztés',
+    sv: 'HSE-teknik och projektutveckling',
+    it: 'Ingegneria HSE e sviluppo progetti',
+    ko: 'HSE 엔지니어링 및 프로젝트 개발',
+    zh: 'HSE工程与项目开发',
+    de: 'HSE-Engineering und Projektentwicklung'
+  },
+  'team.engineeringManager.description': {
+    en: 'Experienced engineering manager specializing in HSE project development, technical solutions, and comprehensive safety system implementation across industrial facilities.',
+    hu: 'Tapasztalt mérnöki vezető, aki az HSE projektfejlesztésre, technikai megoldásokra és az átfogó biztonsági rendszerek megvalósítására specializálódott az ipari létesítményekben.',
+    sv: 'Erfaren ingenjörschef specialiserad på HSE-projektutveckling, tekniska lösningar och implementering av omfattande säkerhetssystem inom industrianläggningar.',
+    it: 'Responsabile ingegneria esperto specializzato nello sviluppo di progetti HSE, soluzioni tecniche e implementazione completa di sistemi di sicurezza negli impianti industriali.',
+    ko: '산업 시설 전반에 걸친 HSE 프로젝트 개발, 기술 솔루션 및 포괄적인 안전 시스템 구현을 전문으로 하는 경험 많은 엔지니어링 관리자.',
+    zh: '经验丰富的工程经理，专门从事HSE项目开发、技术解决方案以及工业设施的综合安全系统实施。',
+    de: 'Erfahrener Ingenieurmanager, spezialisiert auf HSE-Projektentwicklung, technische Lösungen und umfassende Implementierung von Sicherheitssystemen in Industrieanlagen.'
   }
 };
 
