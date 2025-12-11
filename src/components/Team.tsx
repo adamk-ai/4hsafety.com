@@ -23,8 +23,8 @@ export function Team() {
     position: t('team.engineeringManager.position'),
     specialization: t('team.engineeringManager.specialization'),
     description: t('team.engineeringManager.description'),
-    image: '/horvathferenc-photo.png',
-    imagePosition: 'center 20%',
+    image: '/horvathferenc-photo copy.png',
+    imagePosition: 'center center',
     email: 'ferenc.horvath@office.4hsafety.com',
     linkedin: 'https://linkedin.com/in/ferenc-horvath'
   };
