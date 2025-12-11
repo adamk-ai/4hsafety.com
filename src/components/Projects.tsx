@@ -36,7 +36,6 @@ export function Projects() {
         '/italy/8947d42f-f292-41cf-b567-63cd394fe6cb.jpg',
         '/italy/a15ebaee-95e7-424a-b049-bc0a1171ff93.jpg',
         '/italy/0eb6b90fe637aa6520793adc775fd7fd.JPEG',
-        '/italy/4183aa5de5bb8bd50e60c0c7ebd6afff.JPEG',
         '/italy/4e6185153f2aafb1526dd91581fbf47a.JPEG',
         '/italy/71d517678a51e7625903268150922381.JPEG',
         '/italy/77d54bbfff63c9beb92d31976b25abe6.JPEG',
