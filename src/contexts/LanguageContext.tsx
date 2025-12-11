@@ -642,6 +642,51 @@ const translations = {
     zh: '工业安全',
     de: 'Industrielle Sicherheit'
   },
+  'projects.cyprus.title': {
+    en: 'Cyprus',
+    hu: 'Ciprus',
+    sv: 'Cypern',
+    it: 'Cipro',
+    ko: '키프로스',
+    zh: '塞浦路斯',
+    de: 'Zypern'
+  },
+  'projects.cyprus.description': {
+    en: 'Coming Soon',
+    hu: 'Hamarosan',
+    sv: 'Kommer snart',
+    it: 'Prossimamente',
+    ko: '곧 공개',
+    zh: '即将推出',
+    de: 'Demnächst'
+  },
+  'projects.cyprus.client': {
+    en: 'Cyprus',
+    hu: 'Ciprus',
+    sv: 'Cypern',
+    it: 'Cipro',
+    ko: '키프로스',
+    zh: '塞浦路斯',
+    de: 'Zypern'
+  },
+  'projects.cyprus.completed': {
+    en: 'Coming Soon',
+    hu: 'Hamarosan',
+    sv: 'Kommer snart',
+    it: 'Prossimamente',
+    ko: '곧 공개',
+    zh: '即将推出',
+    de: 'Demnächst'
+  },
+  'projects.cyprus.category': {
+    en: 'Industrial Safety',
+    hu: 'Ipari biztonság',
+    sv: 'Industrisäkerhet',
+    it: 'Sicurezza industriale',
+    ko: '산업 안전',
+    zh: '工业安全',
+    de: 'Industriesicherheit'
+  },
   'projects.bulgaria.title': {
     en: 'Bulgaria',
     hu: 'Bulgária',
@@ -661,13 +706,13 @@ const translations = {
     de: 'Demnächst'
   },
   'projects.bulgaria.client': {
-    en: '',
-    hu: '',
-    sv: '',
-    it: '',
-    ko: '',
-    zh: '',
-    de: ''
+    en: 'Bulgaria',
+    hu: 'Bulgária',
+    sv: 'Bulgarien',
+    it: 'Bulgaria',
+    ko: '불가리아',
+    zh: '保加利亚',
+    de: 'Bulgarien'
   },
   'projects.bulgaria.completed': {
     en: 'Starting in 2026',
@@ -686,6 +731,51 @@ const translations = {
     ko: 'HSE 서비스',
     zh: 'HSE服务',
     de: 'HSE-Service'
+  },
+  'projects.finland.title': {
+    en: 'Finland',
+    hu: 'Finnország',
+    sv: 'Finland',
+    it: 'Finlandia',
+    ko: '핀란드',
+    zh: '芬兰',
+    de: 'Finnland'
+  },
+  'projects.finland.description': {
+    en: 'Coming Soon',
+    hu: 'Hamarosan',
+    sv: 'Kommer snart',
+    it: 'Prossimamente',
+    ko: '곧 공개',
+    zh: '即将推出',
+    de: 'Demnächst'
+  },
+  'projects.finland.client': {
+    en: 'Finland',
+    hu: 'Finnország',
+    sv: 'Finland',
+    it: 'Finlandia',
+    ko: '핀란드',
+    zh: '芬兰',
+    de: 'Finnland'
+  },
+  'projects.finland.completed': {
+    en: 'Coming Soon',
+    hu: 'Hamarosan',
+    sv: 'Kommer snart',
+    it: 'Prossimamente',
+    ko: '곧 공개',
+    zh: '即将推出',
+    de: 'Demnächst'
+  },
+  'projects.finland.category': {
+    en: 'Industrial Safety',
+    hu: 'Ipari biztonság',
+    sv: 'Industrisäkerhet',
+    it: 'Sicurezza industriale',
+    ko: '산업 안전',
+    zh: '工业安全',
+    de: 'Industriesicherheit'
   },
   'projects.tech.fireSafety': {
     en: 'Fire Safety Systems',

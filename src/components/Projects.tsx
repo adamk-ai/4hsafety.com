@@ -60,6 +60,39 @@ export function Projects() {
       category: t('projects.germany.category'),
       client: t('projects.germany.client'),
       completed: t('projects.germany.completed')
+    },
+    {
+      id: '4',
+      title: t('projects.cyprus.title'),
+      description: t('projects.cyprus.description'),
+      image: '',
+      gallery: [],
+      technologies: [],
+      category: t('projects.cyprus.category'),
+      client: t('projects.cyprus.client'),
+      completed: t('projects.cyprus.completed')
+    },
+    {
+      id: '5',
+      title: t('projects.bulgaria.title'),
+      description: t('projects.bulgaria.description'),
+      image: '',
+      gallery: [],
+      technologies: [],
+      category: t('projects.bulgaria.category'),
+      client: t('projects.bulgaria.client'),
+      completed: t('projects.bulgaria.completed')
+    },
+    {
+      id: '6',
+      title: t('projects.finland.title'),
+      description: t('projects.finland.description'),
+      image: '',
+      gallery: [],
+      technologies: [],
+      category: t('projects.finland.category'),
+      client: t('projects.finland.client'),
+      completed: t('projects.finland.completed')
     }
   ];
 
