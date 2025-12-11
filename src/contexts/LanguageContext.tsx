@@ -1168,6 +1168,15 @@ const translations = {
   },
 
   // Team positions
+  'team.formerly': {
+    en: 'Formerly',
+    hu: 'Korábban',
+    sv: 'Tidigare',
+    it: 'In precedenza',
+    ko: '이전',
+    zh: '以前',
+    de: 'Früher'
+  },
   'team.ceo.position': {
     en: 'CEO & Safety Director',
     hu: 'Ügyvezető Igazgató',

@@ -34,6 +34,7 @@ export function Team() {
       id: '2',
       name: 'Matyas Egyed',
       position: t('team.safetyCoordinator.position'),
+      previousPosition: t('team.projectManager.position'),
       specialization: t('team.safetyCoordinator.specialization'),
       description: t('team.safetyCoordinator.description'),
       image: '/matyas-new.jpg',
@@ -45,6 +46,7 @@ export function Team() {
       id: '4',
       name: 'Mate Horvath',
       position: t('team.safetyCoordinator.position'),
+      previousPosition: t('team.environmentalEngineer.position'),
       specialization: t('team.safetyCoordinator.specialization'),
       description: t('team.safetyCoordinator.description'),
       image: '/mate-new.jpg',
@@ -178,9 +180,14 @@ export function Team() {
                     <h3 className="text-xl font-bold text-gray-900 mb-1 group-hover:text-red-600 transition-colors duration-300">
                       {member.name}
                     </h3>
-                    <p className="text-red-600 font-semibold text-sm mb-3 group-hover:text-gray-900 transition-colors duration-300">
+                    <p className="text-red-600 font-semibold text-sm mb-1 group-hover:text-gray-900 transition-colors duration-300">
                       {member.position}
                     </p>
+                    {member.previousPosition && (
+                      <p className="text-gray-500 text-xs italic">
+                        {t('team.formerly')}: {member.previousPosition}
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>

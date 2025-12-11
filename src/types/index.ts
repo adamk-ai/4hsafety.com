@@ -8,6 +8,7 @@ export interface TeamMember {
   email?: string;
   specialization: string;
   imagePosition?: string;
+  previousPosition?: string;
 }
 
 export interface Project {
