@@ -67,6 +67,17 @@ export function Team() {
       linkedin: 'https://linkedin.com/in/viktor-varhegyi'
     },
     {
+      id: '7',
+      name: 'Csenger',
+      position: t('team.safetyCoordinator.position'),
+      specialization: t('team.safetyCoordinator.specialization'),
+      description: t('team.safetyCoordinator.description'),
+      image: '/csenger-phote.png',
+      imagePosition: 'center 20%',
+      email: 'csenger@office.4hsafety.com',
+      linkedin: 'https://linkedin.com/in/csenger'
+    },
+    {
       id: '5',
       name: 'Adam Kiss',
       position: t('team.officeAdmin.position'),
@@ -179,7 +190,7 @@ export function Team() {
 
         {/* Team - Fourth Level */}
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-5xl">
             {team.map((member, index) => (
               <div key={member.id} className="group text-center">
                 <div className="relative mb-6">
