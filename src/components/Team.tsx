@@ -86,7 +86,7 @@ export function Team() {
       name: 'Csenger',
       position: t('team.safetyCoordinator.position'),
       specialization: t('team.safetyCoordinator.specialization'),
-      description: t('team.safetyCoordinator.description'),
+      description: t('team.csenger.description'),
       image: '/csenger-phote copy.png',
       imagePosition: 'center 15%',
       email: 'csenger@office.4hsafety.com',

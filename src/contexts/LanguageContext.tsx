@@ -1285,6 +1285,15 @@ const translations = {
     zh: '认证安全协调员，在工作场所安全培训、设备检查和消防系统方面拥有丰富经验。',
     de: 'Zertifizierter Sicherheitskoordinator mit umfangreicher Erfahrung in Arbeitsplatzsicherheitsschulungen, Geräteinspektionen und Brandschutzsystemen.'
   },
+  'team.csenger.description': {
+    en: '',
+    hu: '',
+    sv: '',
+    it: '',
+    ko: '',
+    zh: '',
+    de: ''
+  },
   'team.officeAdmin.position': {
     en: 'Office Administrator',
     hu: 'Irodavezető',
