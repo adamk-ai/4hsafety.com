@@ -1285,6 +1285,15 @@ const translations = {
     zh: '认证安全协调员，在工作场所安全培训、设备检查和消防系统方面拥有丰富经验。',
     de: 'Zertifizierter Sicherheitskoordinator mit umfangreicher Erfahrung in Arbeitsplatzsicherheitsschulungen, Geräteinspektionen und Brandschutzsystemen.'
   },
+  'team.csenger.specialization': {
+    en: 'Workplace Safety',
+    hu: 'Munkavédelem',
+    sv: 'Arbetsmiljö',
+    it: 'Sicurezza sul lavoro',
+    ko: '작업장 안전',
+    zh: '工作场所安全',
+    de: 'Arbeitsplatzsicherheit'
+  },
   'team.csenger.description': {
     en: '',
     hu: '',

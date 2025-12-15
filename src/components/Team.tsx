@@ -85,7 +85,7 @@ export function Team() {
       id: '7',
       name: 'Csenger',
       position: t('team.safetyCoordinator.position'),
-      specialization: t('team.safetyCoordinator.specialization'),
+      specialization: t('team.csenger.specialization'),
       description: t('team.csenger.description'),
       image: '/csenger-phote copy.png',
       imagePosition: 'center 15%',
