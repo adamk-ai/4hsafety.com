@@ -535,13 +535,13 @@ const translations = {
     de: 'Eskilstuna'
   },
   'projects.sweden.completed': {
-    en: 'Completed 2024',
-    hu: 'Befejezve 2024',
-    sv: 'Slutfört 2024',
-    it: 'Completato 2024',
-    ko: '2024년 완료',
-    zh: '2024年完成',
-    de: 'Abgeschlossen 2024'
+    en: 'Currently in Progress',
+    hu: 'Folyamatban',
+    sv: 'Pågår just nu',
+    it: 'Attualmente in corso',
+    ko: '현재 진행 중',
+    zh: '目前进行中',
+    de: 'Derzeit in Arbeit'
   },
   'projects.sweden.category': {
     en: 'Industrial Safety',
