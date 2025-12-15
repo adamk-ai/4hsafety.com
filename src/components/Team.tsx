@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { TeamMember } from '../types';
+import { TeamModal } from './TeamModal';
 
 export function Team() {
   const { t } = useLanguage();
+  const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleMemberClick = (member: TeamMember) => {
+    setSelectedMember(member);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setTimeout(() => setSelectedMember(null), 300);
+  };
 
   const ceo: TeamMember = {
     id: '1',
@@ -107,13 +120,16 @@ export function Team() {
 
         {/* CEO - Top Level */}
         <div className="flex justify-center mb-12">
-          <div className="group text-center">
+          <div
+            className="group text-center cursor-pointer"
+            onClick={() => handleMemberClick(ceo)}
+          >
             <div className="relative mb-6">
               <div className="w-56 h-56 mx-auto rounded-full overflow-hidden bg-white shadow-xl group-hover:shadow-2xl transition-all duration-500 ring-4 ring-red-600">
                 <img
                   src={ceo.image}
                   alt={ceo.name}
-                  className="w-full h-full object-cover object-center filter transition-all duration-500 grayscale contrast-110 brightness-105 group-hover:grayscale-0 group-hover:brightness-110"
+                  className="w-full h-full object-cover object-center filter transition-all duration-500 grayscale contrast-110 brightness-105 group-hover:grayscale-0 group-hover:brightness-110 group-hover:scale-105"
                   style={{ objectPosition: ceo.imagePosition || 'center 20%' }}
                 />
               </div>
@@ -134,13 +150,16 @@ export function Team() {
 
         {/* Engineering Manager - Second Level */}
         <div className="flex justify-center mb-12">
-          <div className="group text-center">
+          <div
+            className="group text-center cursor-pointer"
+            onClick={() => handleMemberClick(engineeringManager)}
+          >
             <div className="relative mb-6">
               <div className="w-52 h-52 mx-auto rounded-full overflow-hidden bg-white shadow-xl group-hover:shadow-2xl transition-all duration-500 ring-4 ring-green-600">
                 <img
                   src={engineeringManager.image}
                   alt={engineeringManager.name}
-                  className="w-full h-full object-cover object-center filter transition-all duration-500 grayscale contrast-110 brightness-105 group-hover:grayscale-0 group-hover:brightness-110"
+                  className="w-full h-full object-cover object-center filter transition-all duration-500 grayscale contrast-110 brightness-105 group-hover:grayscale-0 group-hover:brightness-110 group-hover:scale-105"
                   style={{ objectPosition: engineeringManager.imagePosition || 'center 20%' }}
                 />
               </div>
@@ -163,13 +182,17 @@ export function Team() {
         <div className="flex justify-center mb-12">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-3xl">
             {management.map((member, index) => (
-              <div key={member.id} className="group text-center">
+              <div
+                key={member.id}
+                className="group text-center cursor-pointer"
+                onClick={() => handleMemberClick(member)}
+              >
                 <div className="relative mb-6">
                   <div className="w-48 h-48 mx-auto rounded-full overflow-hidden bg-white shadow-lg group-hover:shadow-xl transition-all duration-500 ring-2 ring-gray-300">
                     <img
                       src={member.image}
                       alt={member.name}
-                      className="w-full h-full object-cover object-center filter transition-all duration-500 grayscale contrast-110 brightness-105 group-hover:grayscale-0 group-hover:brightness-110"
+                      className="w-full h-full object-cover object-center filter transition-all duration-500 grayscale contrast-110 brightness-105 group-hover:grayscale-0 group-hover:brightness-110 group-hover:scale-105"
                       style={{ objectPosition: member.imagePosition || 'center 20%' }}
                     />
                   </div>
@@ -199,13 +222,17 @@ export function Team() {
         <div className="flex justify-center">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-5xl">
             {team.map((member, index) => (
-              <div key={member.id} className="group text-center">
+              <div
+                key={member.id}
+                className="group text-center cursor-pointer"
+                onClick={() => handleMemberClick(member)}
+              >
                 <div className="relative mb-6">
                   <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-white shadow-lg group-hover:shadow-xl transition-all duration-500">
                     <img
                       src={member.image}
                       alt={member.name}
-                      className="w-full h-full object-cover object-center filter transition-all duration-500 grayscale contrast-110 brightness-105 group-hover:grayscale-0 group-hover:brightness-110"
+                      className="w-full h-full object-cover object-center filter transition-all duration-500 grayscale contrast-110 brightness-105 group-hover:grayscale-0 group-hover:brightness-110 group-hover:scale-105"
                       style={{ objectPosition: member.imagePosition || 'center 20%' }}
                     />
                   </div>
@@ -231,6 +258,12 @@ export function Team() {
           <div className="w-32 h-1 bg-gradient-to-r from-red-600 to-green-600 rounded-full"></div>
         </div>
       </div>
+
+      <TeamModal
+        member={selectedMember}
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+      />
     </section>
   );
 }
