@@ -1304,13 +1304,13 @@ const translations = {
     de: ''
   },
   'team.csenger.detailedDescription': {
-    en: '',
-    hu: '',
-    sv: '',
-    it: '',
-    ko: '',
-    zh: '',
-    de: ''
+    en: '.',
+    hu: '.',
+    sv: '.',
+    it: '.',
+    ko: '.',
+    zh: '.',
+    de: '.'
   },
   'team.officeAdmin.position': {
     en: 'Office Administrator',
