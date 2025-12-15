@@ -36,6 +36,7 @@ export function TeamModal({ member, isOpen, onClose }: TeamModalProps) {
     member.id === '2' ? 'team.projectManager.detailedDescription' :
     member.id === '4' ? 'team.environmentalEngineer.detailedDescription' :
     member.id === '3' ? 'team.safetyCoordinator.detailedDescription' :
+    member.id === '7' ? 'team.csenger.detailedDescription' :
     member.id === '5' ? 'team.officeAdmin.detailedDescription' :
     'team.safetyCoordinator.detailedDescription';
 

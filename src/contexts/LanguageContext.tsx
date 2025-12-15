@@ -1294,6 +1294,15 @@ const translations = {
     zh: '',
     de: ''
   },
+  'team.csenger.detailedDescription': {
+    en: '',
+    hu: '',
+    sv: '',
+    it: '',
+    ko: '',
+    zh: '',
+    de: ''
+  },
   'team.officeAdmin.position': {
     en: 'Office Administrator',
     hu: 'Irodavezető',
