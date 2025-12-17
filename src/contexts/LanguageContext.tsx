@@ -1304,13 +1304,13 @@ const translations = {
     de: ''
   },
   'team.csenger.detailedDescription': {
-    en: '.',
-    hu: '.',
-    sv: '.',
-    it: '.',
-    ko: '.',
-    zh: '.',
-    de: '.'
+    en: 'A reliable and stable presence in the team. In his work, he prioritizes well-thought-out solutions, and it is important to him that decisions are sustainable in the long term. His forward-thinking approach and consistent attitude play a significant role in ensuring that tasks are carried out within secure frameworks.',
+    hu: 'A csapatban megbízható, stabil pontként van jelen. Munkája során a jól átgondolt megoldásokat részesíti előnyben, és fontos számára, hogy a döntések hosszú távon is fenntarthatók legyenek. Előrelátó gondolkodása és következetes hozzáállása jelentős szerepet játszik abban, hogy a feladatok biztonságos keretek között valósuljanak meg.',
+    sv: 'En pålitlig och stabil närvaro i teamet. I sitt arbete prioriterar han väl genomtänkta lösningar, och det är viktigt för honom att beslut är hållbara på lång sikt. Hans framåtblickande tänkande och konsekventa attityd spelar en betydande roll för att säkerställa att uppgifter genomförs inom säkra ramar.',
+    it: 'Una presenza affidabile e stabile nel team. Nel suo lavoro, dà priorità a soluzioni ben ponderate ed è importante per lui che le decisioni siano sostenibili a lungo termine. Il suo approccio lungimirante e il suo atteggiamento coerente svolgono un ruolo significativo nel garantire che i compiti siano svolti in modo sicuro.',
+    ko: '팀에서 신뢰할 수 있고 안정적인 존재입니다. 그의 업무에서 잘 고려된 솔루션을 우선시하며, 결정이 장기적으로 지속 가능한 것이 중요합니다. 그의 미래 지향적인 사고와 일관된 태도는 작업이 안전한 틀 내에서 수행되도록 하는 데 중요한 역할을 합니다.',
+    zh: '团队中可靠而稳定的存在。在工作中，他优先考虑经过深思熟虑的解决方案，对他来说，决策的长期可持续性很重要。他的前瞻性思维和始终如一的态度在确保任务在安全框架内执行方面发挥着重要作用。',
+    de: 'Eine zuverlässige und stabile Präsenz im Team. In seiner Arbeit priorisiert er gut durchdachte Lösungen, und es ist ihm wichtig, dass Entscheidungen langfristig tragfähig sind. Seine vorausschauende Denkweise und konsequente Haltung spielen eine bedeutende Rolle dabei, dass Aufgaben in einem sicheren Rahmen ausgeführt werden.'
   },
   'team.officeAdmin.position': {
     en: 'Office Administrator',
