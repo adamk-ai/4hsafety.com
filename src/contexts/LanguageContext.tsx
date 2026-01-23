@@ -580,13 +580,13 @@ const translations = {
     de: 'Sizilien'
   },
   'projects.italy.completed': {
-    en: 'Currently in Progress',
-    hu: 'Jelenleg folyamatban',
-    sv: 'Pågår för närvarande',
-    it: 'Attualmente in corso',
-    ko: '현재 진행 중',
-    zh: '目前正在进行中',
-    de: 'Derzeit in Bearbeitung'
+    en: 'Completed',
+    hu: 'Lezárva',
+    sv: 'Slutförd',
+    it: 'Completato',
+    ko: '완료됨',
+    zh: '已完成',
+    de: 'Abgeschlossen'
   },
   'projects.italy.category': {
     en: 'Environmental Safety',
