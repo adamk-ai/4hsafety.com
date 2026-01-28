@@ -4,7 +4,7 @@ import { TeamMember } from '../types';
 import { TeamModal } from './TeamModal';
 
 export function Team() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -81,7 +81,7 @@ export function Team() {
     },
     {
       id: '7',
-      name: 'Hommonai Csenger',
+      name: language === 'hu' ? 'Hommonai Csenger' : 'Csenger Homonnai',
       position: t('team.safetyCoordinator.position'),
       specialization: t('team.csenger.specialization'),
       description: t('team.csenger.description'),
