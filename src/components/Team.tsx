@@ -81,7 +81,7 @@ export function Team() {
     },
     {
       id: '7',
-      name: 'Csenger',
+      name: 'Hommonai Csenger',
       position: t('team.safetyCoordinator.position'),
       specialization: t('team.csenger.specialization'),
       description: t('team.csenger.description'),
