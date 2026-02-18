@@ -136,7 +136,7 @@ export function Projects() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            {t('projects.title')}
+            {t('projects.internationalTitle')}
           </h2>
           <div className="h-1 w-20 bg-gradient-to-r from-red-600 to-green-600 mx-auto mb-6"></div>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
@@ -217,6 +217,23 @@ export function Projects() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Nationwide Presence Map */}
+        <div className="mt-20">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+              {t('projects.nationwideTitle')}
+            </h3>
+            <div className="h-1 w-20 bg-gradient-to-r from-red-600 to-green-600 mx-auto"></div>
+          </div>
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+            <img
+              src="/IMG_7892.jpeg"
+              alt={t('projects.nationwideTitle')}
+              className="w-full h-auto"
+            />
+          </div>
         </div>
       </div>
 

@@ -453,6 +453,24 @@ const translations = {
     zh: '我们的项目',
     de: 'Unsere Projekte'
   },
+  'projects.internationalTitle': {
+    en: 'International Projects',
+    hu: 'Nemzetközi Projektek',
+    sv: 'Internationella projekt',
+    it: 'Progetti internazionali',
+    ko: '국제 프로젝트',
+    zh: '国际项目',
+    de: 'Internationale Projekte'
+  },
+  'projects.nationwideTitle': {
+    en: 'Nationwide Presence',
+    hu: 'Országos Jelenlét',
+    sv: 'Rikstäckande närvaro',
+    it: 'Presenza nazionale',
+    ko: '전국 네트워크',
+    zh: '全国网络',
+    de: 'Landesweite Präsenz'
+  },
   'projects.subtitle': {
     en: 'Successful safety implementations across various industries',
     hu: 'Sikeres biztonsági megoldások különböző iparágakban',
