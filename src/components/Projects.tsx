@@ -21,7 +21,12 @@ export function Projects() {
         '/sweden/4304967c-9fc6-4e6e-b3b6-3d35a02af321.jpg',
         '/sweden/71014859-4955-4f54-a6cf-15189ba3bfac.jpg',
         '/sweden/07e2f6ac-d98c-4285-ad81-b22647db3e2c.jpg',
-        '/sweden/97befc896d8bd95b4b0376311acf55ee.JPEG'
+        '/sweden/97befc896d8bd95b4b0376311acf55ee.JPEG',
+        '/italy/0eb6b90fe637aa6520793adc775fd7fd.JPEG',
+        '/italy/4e6185153f2aafb1526dd91581fbf47a.JPEG',
+        '/italy/71d517678a51e7625903268150922381.JPEG',
+        '/italy/77d54bbfff63c9beb92d31976b25abe6.JPEG',
+        '/italy/a08ed002ab39824713d6e6ef56dad8f7.JPEG'
       ],
       technologies: [],
       category: t('projects.sweden.category'),
@@ -36,11 +41,6 @@ export function Projects() {
       gallery: [
         '/italy/8947d42f-f292-41cf-b567-63cd394fe6cb.jpg',
         '/italy/a15ebaee-95e7-424a-b049-bc0a1171ff93.jpg',
-        '/italy/0eb6b90fe637aa6520793adc775fd7fd.JPEG',
-        '/italy/4e6185153f2aafb1526dd91581fbf47a.JPEG',
-        '/italy/71d517678a51e7625903268150922381.JPEG',
-        '/italy/77d54bbfff63c9beb92d31976b25abe6.JPEG',
-        '/italy/a08ed002ab39824713d6e6ef56dad8f7.JPEG',
         '/sicily/PHOTO-2025-09-29-14-13-12 1.jpg',
         '/sicily/PHOTO-2025-09-29-14-13-13.jpg',
         '/sicily/20260123_125924000_ios.jpg',
