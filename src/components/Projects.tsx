@@ -229,7 +229,7 @@ export function Projects() {
           </div>
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
             <img
-              src="/IMG_7892.jpeg"
+              src="/belfoldi-munkak/Nationwide_Presence.PNG"
               alt={t('projects.nationwideTitle')}
               className="w-full h-auto"
             />
